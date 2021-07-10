@@ -4,7 +4,7 @@ from colorama import Fore
 from colorama import init
 init()
 def parse():
-    jsonElementsFile = open(r"C:\Users\ALS0003\Documents\Coding\Resources\periodic_table.json", 'r', encoding='utf-8')
+    jsonElementsFile = open(r"https://github.com/Bowserinator/Periodic-Table-JSON/blob/master/periodic-table-lookup.json", 'r', encoding='utf-8')
     parse.jsonElements = json.loads(jsonElementsFile.read())
     pass
 def parseElementInfo(element):
